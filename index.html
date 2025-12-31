@@ -143,7 +143,6 @@
       </div>
 
       <div class="order-1 lg:order-2 flex justify-center lg:justify-end relative">
-        <div class="absolute inset-0 bg-gradient-to-tr from-emerald-500/20 to-yellow-500/20 blur-[100px] rounded-full"></div>
         <div class="relative w-72 h-72 md:w-96 md:h-96 animate-float">
           <img src="img/avatar.png"
                alt="Thiago Dias Jardim"
@@ -170,7 +169,7 @@
       <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
         <div>
           <span class="text-gold font-mono text-sm tracking-widest uppercase">Portfolio</span>
-          <h2 class="text-4xl md:text-5xl font-display font-bold mt-2">Projetos Selecionados</h2>
+          <h2 class="text-4xl md:text-5xl font-display font-bold mt-2">Projetos</h2>
         </div>
         <p class="text-gray-400 text-sm max-w-xs text-right">Uma mistura de código acadêmico, soluções reais e experimentos.</p>
       </div>
@@ -218,17 +217,18 @@
 <script>
   const data = {
     skills: [
-      { category: "Backend & Linguagens", items: ["Java (POO)", "Python", "SQL (MySQL/PostgreSQL)", "Spring Boot"] },
+      { category: "Backend & Linguagens", items: ["Java", "Spring Boot","SQL (MySQL/PostgreSQL)"] },
       { category: "Web & Frontend", items: ["HTML5 & CSS3", "JavaScript", "Web Moderno", "Tailwind CSS"] },
-      { category: "Infraestrutura", items: ["Redes & Hardware", "Suporte N1/N2", "Sistemas SIG", "Linux"] },
+      { category: "Infraestrutura", items: ["Redes & Hardware", "Suporte N1/N2", "Sistemas SIG"] },
       { category: "Inovação & IA", items: ["Prompt Engineering", "LLMs p/ Code Optimization", "Git/Versionamento"] }
     ],
     projects: [
       {
         title: "Projeto HUB",
         role: "Backend Java",
-        desc: "Sistema backend para gestão de espaços públicos (Prefeitura de Cel. Fabriciano). Foco em arquitetura limpa, regras de negócio complexas e persistência de dados.",
-        tags: ["Java", "POO", "Spring Boot", "MySQL"],
+        desc: "Sistema backend para gestão de espaços públicos (Prefeitura de Cel. Fabriciano). " +
+          "Foco em arquitetura limpa, regras de negócio complexas e persistência de dados.",
+        tags: ["Java", "Spring Boot", "MySQL"],
         link: "https://github.com/mayanpas/Projeto-PI-UNILESTE"
       },
       {
@@ -248,9 +248,9 @@
       {
         title: "Portfólio Web 2025",
         role: "Frontend Criativo",
-        desc: "Este site. Centralização de competências técnicas usando tecnologias modernas de renderização 3D e estilização.",
+        desc: "Este site! Centralização de competências técnicas usando tecnologias modernas de renderização 3D e estilização.",
         tags: ["Three.js", "Tailwind", "Design"],
-        link: "https://github.com/teagozz/cv"
+        link: "https://github.com/teagozz/portfoliov2"
       }
     ],
     experience: [
